@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/masterchief2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/masterchief2"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/masterchief3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/masterchief3"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Master Chief"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/txtBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A cybernetically enhanced supersoldier defending humanity against alien threats."
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/txtPower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Power armor, military tactics, weapon mastery"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/txtGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appears in: Halo series"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>

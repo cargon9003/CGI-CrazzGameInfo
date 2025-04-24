@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CGI: Crazz Gamers Info</string>
+    <string name="masterchief_desc">Master Chief</string>
+    <string name="wukong_desc">Wu-Kong</string>
+    <string name="kratos_desc">Kratos</string>
+
+</resources>
